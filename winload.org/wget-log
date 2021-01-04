@@ -1,0 +1,20 @@
+--2021-01-04 22:54:58--  http://www.reimageplus.com/includes/router_land.php?tracking=BT&adgroup=10mod&keyword=Fdisk%20Cannot%20Open%20/dev/sda%20Input/output%20Error&exec=run
+Resolving www.reimageplus.com (www.reimageplus.com)... 161.47.7.14
+Connecting to www.reimageplus.com (www.reimageplus.com)|161.47.7.14|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.reimageplus.com/tracker/track.php?channel=BT&campaign=direct&adgroup=10mod&ads_name=direct&keyword=Fdisk Cannot Open /dev/sda Input/output Error&exec=run&nms=1 [following]
+--2021-01-04 22:54:58--  https://www.reimageplus.com/tracker/track.php?channel=BT&campaign=direct&adgroup=10mod&ads_name=direct&keyword=Fdisk%20Cannot%20Open%20/dev/sda%20Input/output%20Error&exec=run&nms=1
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Connecting to www.reimageplus.com (www.reimageplus.com)|161.47.7.14|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cdnrep.reimageplus.com/rqz/ReimageRepair.exe [following]
+--2021-01-04 22:54:59--  https://cdnrep.reimageplus.com/rqz/ReimageRepair.exe
+Resolving cdnrep.reimageplus.com (cdnrep.reimageplus.com)... 205.185.208.80
+Connecting to cdnrep.reimageplus.com (cdnrep.reimageplus.com)|205.185.208.80|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 586224 (572K) [application/octet-stream]
+Saving to: 'router_land.php?tracking=BT&adgroup=10mod&keyword=Fdisk Cannot Open %2Fdev%2Fsda Input%2Foutput Error&exec=run'
+
+router_land.php?tracking=BT&adgroup=10mod& 100%[=====================================================================================>] 572.48K  2.92MB/s    in 0.2s    
+
+2021-01-04 22:55:00 (2.92 MB/s) - 'router_land.php?tracking=BT&adgroup=10mod&keyword=Fdisk Cannot Open %2Fdev%2Fsda Input%2Foutput Error&exec=run' saved [586224/586224]

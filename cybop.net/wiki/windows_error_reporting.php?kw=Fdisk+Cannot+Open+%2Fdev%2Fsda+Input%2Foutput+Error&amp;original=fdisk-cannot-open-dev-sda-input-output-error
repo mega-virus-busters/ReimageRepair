@@ -1,0 +1,502 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>How To Fix Fdisk Cannot Open /dev/sda Input/output Error?</title>
+<link rel="shortcut icon" href="../../wiki/images/icon.png" type="image/x-icon">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="../../wiki/style.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  
+   dt, dd {
+      padding: 10px;
+	  background-color:#F9F9F9;
+      border-bottom: 0; 
+   }  
+.a {
+        display: block;
+        color: black;
+        font-weight: bold;
+      }
+  dd {
+     border-top: 0; 
+     font-size: 12px;
+     &:last-of-type {
+       position: relative;
+       top: -1px;
+     }
+  }
+.mimg {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.top-left {
+    position: absolute;
+    top: 36px;
+    left: 95px;
+    color: #2d5cc9;
+}
+.middle-left {
+    position: absolute;
+    top: 98px;
+    left: 78px;
+    color: #577dd3;
+}
+.bottom-center {
+    position: absolute;
+    top: 180px;
+    left: 95px;
+    color:#416cce;	
+}
+</style>
+  
+</head>
+
+<body>
+<script type="text/javascript">
+function createCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function eraseCookie(name) {
+    createCookie(name,"",-1);
+}
+
+function addEvent(obj, evt, fn) {
+    if (obj.addEventListener) {
+        obj.addEventListener(evt, fn, false);
+    }
+    else if (obj.attachEvent) {
+        obj.attachEvent("on" + evt, fn);
+    }
+}
+
+
+var poptimeout = setTimeout(pop, 1000);
+
+function pop() {
+    addEvent(document, "mouseout", function(e) {
+    e = e ? e : window.event;
+    var from = e.relatedTarget || e.toElement;
+    if (!from || from.nodeName == "HTML") {
+        // the cursor has left the building
+		var x = readCookie('showed')
+		if (!x) {
+			createCookie('showed','1',0.5);
+			$("#myModal").modal();
+		}		
+    }
+	});
+}
+
+</script>
+<div class="container">
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog" style="width:400px;">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+       
+            <div class="mimg" onclick="location.href='http://www.reimageplus.com/includes/router_land.php?tracking=BT&adgroup=10mod&keyword=Fdisk Cannot Open /dev/sda Input/output Error&exec=run';" style="cursor: pointer;">
+                <img src="http://cybop.net/wiki/images/message.png" style="width:100%;">
+                <div class="top-left"><b>1 Important Message</b></div>
+                <div class="middle-left"><font size="2">Download Windows Repair Tool (Important)</font></div>
+                <div class="bottom-center"><font size="2"><b><u>Click here to start the download</u></b></font></div>
+          
+          </div>
+        
+      </div>
+      
+    </div>
+  </div>
+<!-- Modal -->
+<div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Non-Windows OS Detected</h4>
+        </div>
+        <div class="modal-body">
+          <p>The repair tool on this page is for machines running Windows only.
+          <br />
+          <br />
+          Please open this page on a compatible device.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+
+<div id="content">
+	  <p></p>
+	  <h1 class="postitle">Fdisk Cannot Open /dev/sda Input/output Error<!--EDITED <hr /> --></h1>
+      <div id="maincontent">
+      <p><a href="../../wiki/windows_error_reporting.php?kw=Fdisk Cannot Open /dev/sda Input/output Error#3"><u><font color="#0000FF">Click here follow the steps</font></u></a> to fix Fdisk Cannot Open /dev/sda Input/output Error and related errors.</p>
+		<p>&nbsp;</p>
+	  <table style="font-size: 88%; width: 25em; text-align: left; line-height: 1.5em;" class="infobox vevent" border="0">
+          <caption style="font-weight: bold; font-size: 125%; background-color:#FFFF00" class="summary">
+			<font size="4">Instructions</font></caption>
+          <tbody>
+          <tr>
+              <td align="center" colspan="2">&nbsp;</td>
+            </tr>
+          <tr>
+              <td align="center" colspan="2"><div class="floatnone"><a class="image" href="../../download.php">
+			<img src="../wiki/images/reimagepcrepair.jpg" alt="" width="150" height="108" style="float: none"></a></div></td>
+            </tr>
+          <tr>
+              <td align="center" colspan="2"><br /><br />
+			</td>
+            </tr>
+          <tr>
+
+            </tr>
+          <tr>
+              <td align="center" colspan="2">
+				<p align="left"><font size="2">To Fix (Fdisk Cannot Open /dev/sda Input/output Error) error you need to 
+			follow the steps below:</font></p></td>
+            </tr>
+          <tr>
+              <th style="font-weight: bold; font-size: 100%;">
+				<p align="left"><font size="2">Step 1:</font></p></th><th>&nbsp;</th></tr>
+          <tr>    
+			  <td colspan="2" style="font-weight: normal; font-size: 14px;"><a href="../../download.php"><b><font color="#0000FF">Download 
+			(Fdisk Cannot Open /dev/sda Input/output Error) Repair Tool</font></b></a></td>
+            </tr>
+          <tr>
+              <th>&nbsp;</th>
+              <td>&nbsp;</td>
+            </tr>
+		  <tr>
+              <th style="font-weight: bold; font-size: 100%;">
+				<p align="left"><font size="2">Step 2:</font></p></th><td>&nbsp;</td>
+            </tr>
+            <tr>    
+			  <td colspan="2" style="font-weight: normal; font-size: 14px;">Click the <b>"Scan"</b> button</td>
+            </tr>
+          <tr>
+              <th>&nbsp;</th>
+              <td>&nbsp;</td>
+            </tr>
+		  <tr>
+              <th style="font-weight: bold; font-size: 100%;">
+				<p align="left"><font size="2">Step 3:</font></p></th><td>&nbsp;</td>
+            </tr>
+            <tr>    
+			  <td colspan="2" style="font-weight: normal; font-size: 14px;">Click '<b>Fix All</b>' and you're done!</td>
+            </tr>
+		  <tr>
+              <th><br><div style="border-bottom:1px #E5E5E5 solid;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;height:1px;"></div></th>
+              <td rowspan="2">&nbsp;</td>
+            </tr>
+		  <tr>
+              <th>
+              <p align="center"><img border="0" src="../../wiki/images/windows-versions.gif" width="178" height="20" style="float: none"></p>
+				<p align="left">Compatibility<span style="font-weight: 400">: 
+				Windows 10, 8.1, 8, 7, Vista, XP <br> 
+				</span>Download Size<span style="font-weight: 400">: 6MB <br> </span>Requirements<span style="font-weight: 400">: 300 MHz Processor, 256 MB Ram, 22 MB HDD<br><br>
+				Limitations: 
+				This download is a free evaluation version. To unlock all features and tools, a purchase is required.<br><br> </span></p></th>
+            </tr>
+         </tbody>
+        </table>
+	  <p id="1"><b>Fdisk Cannot Open /dev/sda Input/output Error</b> may be caused by a number of different reasons.<br><br>
+
+If you have Fdisk Cannot Open /dev/sda Input/output Error then we strongly recommend that you 
+		<font color="#0000FF"><u><b><a href="../../download.php"><font color="#0000FF"><u>Download (Fdisk Cannot Open /dev/sda Input/output Error) Repair Tool</u></font></a>.</b></u></font><br><br>
+		This article contains information that shows you how to fix  
+		Fdisk Cannot Open /dev/sda Input/output Error  
+		both 
+		(manually) and (automatically) , In addition, this article will help you troubleshoot some common error messages related to Fdisk Cannot Open /dev/sda Input/output Error that you may receive.
+</p>
+	    <i><b><font style="font-size: 9pt">Note:</font></b><font style="font-size: 9pt"> 
+		This article was <strong>updated on 2020-12-29</strong> and previously published under WIKI_Q210794</font></i><p>
+	    <br>	 
+ 		</p>
+ <table id="toc">
+	  <tbody>
+	        <tr><td>
+	            <div id="toctitle"><h2>Contents</h2></div>
+	            <ul>
+	            	<li><a href="../../wiki/windows_error_reporting.php?kw=Fdisk Cannot Open /dev/sda Input/output Error#1" title="What is the error?">&nbsp;&nbsp;1.&nbsp;Meaning of Fdisk Cannot Open /dev/sda Input/output Error?</a></li>
+	            	<li><a href="../../wiki/windows_error_reporting.php?kw=Fdisk Cannot Open /dev/sda Input/output Error#2" title="What causes the error?">&nbsp;&nbsp;2.&nbsp;What is the cause of this error?</a></li>
+	            	<li><a href="../../wiki/windows_error_reporting.php?kw=Fdisk Cannot Open /dev/sda Input/output Error#3" title="How to fix">&nbsp;&nbsp;3.&nbsp;How to fix Fdisk Cannot Open /dev/sda Input/output Error</a></li>       
+ 				</ul>
+	            </td>
+	        </tr>
+	  </tbody>
+	  </table>
+	  <p class="MsoNormal">&nbsp;</p>
+	    <br>
+	    	  <br>
+   	    <h2 id="1">Meaning of Fdisk Cannot Open /dev/sda Input/output Error?</h2>
+   	    <p>Fdisk Cannot Open /dev/sda Input/output Error is the error name that contains the details of the error, including why it occurred, which system component or application malfunctioned to cause this error along with some other information. The numerical code in the error name contains data that can be deciphered by the manufacturer of the component or application that malfunctioned. The error using this code may occur in many different locations within the system, so even though it carries some details in its name, it is still difficult for a user to pinpoint and fix the error cause without specific technical knowledge or appropriate software.</p>
+      <p>&nbsp;</p>
+
+      <h2 id="2">Causes of Fdisk Cannot Open /dev/sda Input/output Error</h2>
+
+      <p>If you have received this error on your PC, it means that there was a malfunction in your system operation. Common reasons include incorrect or failed installation or uninstallation of software that may have left invalid entries in your Windows registry, consequences of a virus or malware attack, improper system shutdown due to a power failure or another factor, someone with little technical knowledge accidentally deleting a necessary system file or registry entry, as well as a number of other causes. The immediate cause of the &quot;Fdisk Cannot Open /dev/sda Input/output Error&quot; error is a failure to correctly run one of its normal operations by a system or application component.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+<h2 id="3">How to fix 
+  Fdisk Cannot Open /dev/sda Input/output Error</h2>
+<p>Follow these steps to fix your problem:
+
+		</p>
+<p>It is highly suggested that you carry out all the steps in exact manner to effectively get rid of your problem.</p>
+<h3>Scan the Computer with the Windows Repair Tool</h3>
+<p>This repair tool is free to download as well as easy to use. It scans, detects and repairs your computer for system errors like Fdisk Cannot Open /dev/sda Input/output Error. The tool is powerful enough to find malicious items that are hidden on the computer.</p>
+<p><strong>1.</strong> Download Repair Tool from the link below. Save the file to your <strong>Desktop</strong> so that we can access the file easily.<br />
+  <font color="#0000FF"><u><b><a title="Download Tool" href="../download.php" target="_blank">Repair Tool Download Link</a></b></u></font> (right-click and save to your Desktop)</p>
+<p><strong>2.</strong> After downloading, navigate to the file location and double-click it. This will start the installation procedure. <strong>User Account Control</strong> will prompt if you want to run the program, click <strong>Yes</strong> to continue.</p>
+<p><strong>3.</strong> On initial launch of the program, it will display a <strong>welcome screen</strong>. Leave the checkbox unticked to allow the repair tool to start an automatic scan and click <strong>Install</strong> to start the installation procedure.</p>
+<p><strong>4.</strong> The tool will now install itself on your computer. The tool will download necessary updates so Internet connection is required at this point.</p>
+<p><strong>5.</strong> The tool will automatically start a preliminary scan of your machine to help determine the health of your PC.</p>
+<p><strong>6.</strong> Once the scan is complete the tool will tell you which areas of your PC are <strong>damaged</strong> and if a repair is necessary. If it is, click on the <strong>Start Repair</strong> button in the bottom right corner.</p>
+<p><strong>7.</strong> After it's finished it's repair your computer should be <strong>fixed</strong>. You may need to restart your computer to complete the process.</p>
+                <br><br><br>
+				<p><b>How does it work?</b></p>
+		<div style="border-bottom:1px #E5E5E5 solid;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;height:1px;"></div>
+
+		<p>This tool will scan and diagnose, then repairs, your PC with patent 
+		pending technology that fix your windows operating system registry 
+		structure. <br>basic features: (repairs system freezing and rebooting issues , start-up customization , browser helper object management , program removal management , live updates , windows structure repair.)</p></div>
+				<div class="comments">
+
+					
+				</div>
+
+  
+   <!-- EDITED Starts: to add the RSS feeds  -->
+  
+  <br>
+  <br>
+  <!-- EDITED Ends: to add the RSS feeds  -->
+ <h2 id="5">Recommended Solution Links:</h2>
+		<p><font style="font-size: 0.8em">(1) <u><b><a href="../../download.php"><u>
+		<font color="#0000FF">Download (Fdisk Cannot Open /dev/sda Input/output Error) repair utility.</font></u></a></b></u></font></p>
+ 		<div align="center">
+ <table style="border:#AAAAAA solid 1px; background-color:#FBFBFB; width:600px;" cellpadding="0" cellspacing="5">
+	 <tbody>
+			<tr>
+			<td style="background-color:#F28500; width:10px;">&nbsp;</td>
+			<td style="background-color:#FBFBFB;">
+			<table border="0" width="100%">
+				<tbody><tr>
+					<td><img src="../../wiki/images/Ambox_content.png" alt=""></td>
+					<td><font size="2"><b>Note</b></font><b><font size="2">:</font></b><font size="2"> 
+			The manual fix of <b>Fdisk Cannot Open /dev/sda Input/output Error</b>&nbsp;error is Only recommended for advanced computer users.<b><a href="../../download.php"><font color="#0000FF"><u>Download the automatic repair tool</u></font></a></b>&nbsp;instead.</font></td>
+				</tr>
+			</tbody></table>
+			</td>
+			</tr> 
+	 </tbody>
+ </table>
+ <br />
+ <br />
+ <br />
+ <br />
+  	</div>
+  <!-- EDITED : to add the RSS feeds  -->
+
+  
+
+</div>
+
+
+
+<!-- Header and Sidebar -->
+<!-- header -->
+<div id="mw-head" class="noprint">
+  <!-- 0 -->
+  <div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-login">
+
+</li>
+</ul>
+  </div>
+  <!-- /0 -->
+  <div id="left-navigation">
+    <!-- 0 -->
+    <div id="p-namespaces" class="vectorTabs">
+      <h5>Namespaces</h5>
+      <ul>
+        <li id="ca-nstab-main" class="selected"><span><a href="">Article</a></span></li>
+      </ul>
+    </div>
+    <!-- /0 -->
+    <!-- 1 -->
+    <div id="p-variants" class="vectorMenu emptyPortlet">
+      <h5>&nbsp;</h5>
+      <div class="menu">
+        <ul>
+        </ul>
+      </div>
+    </div>
+    <!-- /1 -->
+  </div>
+<div id="right-navigation">
+<!-- 0 -->
+<!-- /0 -->
+
+<!-- 1 -->
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/" id="searchform"><div id="simpleSearch">
+<input type="text" autocomplete="off" class="placeholder" placeholder="Search" tabindex="1" id="searchInput" name="s" title="Search [alt-shift-f]" accesskey="f"><button id="searchButton" type="submit" title="Search for this text"><img src="../../wiki/images/search-ltr.png" alt="Search"></button></div></form>
+</div>
+
+<!-- /2 -->
+</div>
+
+
+</div>
+<!-- /header -->
+<!-- SideBar -->
+<div id="leftside">
+  <!-- logo -->
+  <div id="logo"><a style="background-image: url(../../wiki/images/logo.png);" href="/"></a></div>
+  <!-- Change the logo with your own. Use 155x155px sized image, preferably .PNG -->
+  <!-- /logo -->
+
+  <div class="widget">
+  <ul>
+    <li id="categories-3" class="widget widget_categories">Main Page		<ul>
+	<li class="cat-item cat-item-33"><a href="./" title="View all posts filed under Applications">Applications</a>
+<ul class="children">
+	<li class="cat-item cat-item-37"><a href="./" title="View all posts filed under AOL">AOL</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="./" title="View all posts filed under Internet Explorer">Internet Explorer</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="./" title="View all posts filed under MS Outlook">MS Outlook</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="./" title="View all posts filed under Outlook Express">Outlook Express</a>
+</li>
+	<li class="cat-item cat-item-44"><a href="./" title="View all posts filed under Windows Live">Windows Live</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-38"><a href="./" title="View all posts filed under DLL Errors">DLL Errors</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="./" title="View all posts filed under Exe Errors">Exe Errors</a>                                                                                  
+</li>
+	<li class="cat-item cat-item-39"><a href="./" title="View all posts filed under Ocx Errors">Ocx Errors</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="./" title="View all posts filed under Operating Systems">Operating Systems</a>
+<ul class="children">
+	<li class="cat-item cat-item-31"><a href="./" title="View all posts filed under Windows 7">Windows 7</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="./" title="View all posts filed under Windows Others">Windows Others</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="./" title="View all posts filed under Windows Vista">Windows Vista</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="./" title="View all posts filed under Windows XP">Windows XP</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-41"><a href="./" title="View all posts filed under TuneUp Tips">TuneUp Tips</a>
+<ul class="children">
+	<li class="cat-item cat-item-43"><a href="./" title="View all posts filed under Browser Tuneup">Browser Tuneup</a>   
+</li>
+	<li class="cat-item cat-item-42"><a href="./" title="View all posts filed under Computer Tuneup">Computer Tuneup</a>
+</li>
+</ul>
+</li>
+		</ul>
+</li><li id="pages-3" class="widget widget_pages">Pages<ul>
+			<li class="page_item page-item-26"><a href="./" title="About Us">About Us</a></li>
+<li class="page_item page-item-390"><a href="./" title="Cat List">Cat List</a></li>
+</ul>
+</li><li id="pages-3" class="widget widget_pages">Support<ul>
+<li class="page_item page-item-116"><a href="./" title="Contact Us">Contact Us</a></li>
+<li class="page_item page-item-116"><a href="./" title="Help Center">Help Center</a></li>
+<li class="page_item page-item-116"><a href="./" title="Contact Us">How to Uninstall</a></li>
+<li class="page_item page-item-116"><a href="./" title="Refund Policy">Refund Policy</a></li>
+</ul>
+</li><li id="pages-3" class="widget widget_pages">Legal<ul>
+<li class="page_item page-item-27"><a href="../../general-disclaimer/" title="General disclaimer">Disclaimers</a></li>
+<li class="page_item page-item-28"><a href="../../privacy-policy/" title="Privacy policy">Privacy policy</a></li>
+<li class="page_item page-item-28"><a href="../../eula/" title="End User License Agreement (EULA)">End User License Agreement (EULA)</a></li>
+<li class="page_item page-item-29"><a href="../../terms-of-use/" title="Terms of use">Terms of use</a></li>
+		</ul>
+		</li>    	<!-- EDITED <li class="widget">  -->
+	
+  </ul>
+</div>
+</div>
+<div id="footer">
+	<ul id="footer-info">
+		<li id="footer-info-copyright">Copyright&nbsp;©&nbsp;2021&nbsp;.&nbsp;All rights reserved.</li>
+		<li id="footer-info-copyright">Disclaimer: This website is not affiliated with Wikipedia and should not be confused with the website of Wikipedia, which can be found at Wikipedia.org. This website should be used for informational purposes only.</li>
+	</ul>
+        <ul id="footer-places">
+           <li><a href="../../about" title="About Us" target="_self">About Us</a></li>
+	   <li><a href="../../contact-us" title="Contact Us" target="_self">Contact us</a></li>
+	   <li><a href="../../privacy-policy" title="Privacy Policy" target="_self">Privacy Policy</a></li>
+	   <li><a href="../../terms-of-use" title="Terms of use" target="_self">Terms of use</a></li>
+
+	</ul>
+</div>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11281893; 
+var sc_invisible=1; 
+var sc_security="b2bce998"; 
+var sc_https=1; 
+var sc_remove_link=1; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><img class="statcounter"
+src="//c.statcounter.com/11281893/0/b2bce998/1/"
+alt="website statistics"></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</body></html>
