@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="1">
+    <title>Reimage Cleaner</title>
+    <welcome file="welcome.html"/>
+    <pkg-ref id="com.reimage.pkg.ReimageCleanerDownloader">
+        <bundle-version/>
+    </pkg-ref>
+    <options customize="never" require-scripts="false" rootVolumeOnly="true"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.reimage.pkg.ReimageCleanerDownloader"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.reimage.pkg.ReimageCleanerDownloader" visible="false">
+        <pkg-ref id="com.reimage.pkg.ReimageCleanerDownloader"/>
+    </choice>
+    <pkg-ref id="com.reimage.pkg.ReimageCleanerDownloader" version="2.2" onConclusion="none" installKBytes="0">#CleanerDownloader.pkg</pkg-ref>
+</installer-gui-script>
