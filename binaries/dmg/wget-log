@@ -1,0 +1,10 @@
+--2021-01-05 14:11:35--  http://cdnrep.reimageplus.com/macos/ReimageCleaner.dmg
+Resolving cdnrep.reimageplus.com (cdnrep.reimageplus.com)... 205.185.208.80
+Connecting to cdnrep.reimageplus.com (cdnrep.reimageplus.com)|205.185.208.80|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4296849 (4.1M) [application/binary]
+Saving to: 'ReimageCleaner.dmg'
+
+ReimageCleaner.dmg                       100%[=====================================================================================>]   4.10M  3.33MB/s    in 1.2s    
+
+2021-01-05 14:11:37 (3.33 MB/s) - 'ReimageCleaner.dmg' saved [4296849/4296849]

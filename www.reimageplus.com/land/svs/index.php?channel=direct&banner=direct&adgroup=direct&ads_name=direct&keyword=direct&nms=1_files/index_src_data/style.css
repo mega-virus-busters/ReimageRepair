@@ -1,0 +1,367 @@
+
+
+body				{font-family: "Segoe UI", Arial; font-size: 16px; color: #000000; margin: 0; padding: 0;}
+.body_wrapper       {background: #ffffff url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/bg.png') repeat-x top left;}
+a, a:hover			{color: #0000ff; text-decoration: underline; border: none}
+img 				{border: none}
+a:hover				{text-decoration: none;}
+#footer-nav li a 	{font-size: 11px; color: #000;}
+a.download,
+a.download:hover	{display: block; width: 271px; height: 52px; text-decoration: none; background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/download-button.png') no-repeat left top;}
+a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/download-button.png') no-repeat left -52px;}
+
+a.free-download,
+a.free-download:hover	{display: block; width: 271px; height: 52px; text-decoration: none; background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/free-download-button.png') no-repeat left top;}
+a.free-download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/free-download-button.png') no-repeat left -52px;}
+
+.container			{width: 912px; margin: 0 auto;}
+.clear				{clear: both;}
+.last				{margin: 0; padding: 0;}
+
+.header				{height: 101px;}
+.header h1			{margin: 0; padding: 10px 0 18px 109px; background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/hd-icon.png') no-repeat 2px 15px; font-size: 50px; color: #ffffff;}
+.header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/ms-seal.png') no-repeat; width: 185px; height: 101px; float: right;}
+
+.content			{padding: 20px 0 0 0; border-bottom: solid 1px #bebebe;}
+.right-box			{width: 301px; border: solid 1px #d5d5d5; border-right: none; border-left: none; background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/right-box-bg.gif') repeat-y; float: right;}
+.right-box .border	{border-bottom: solid 1px #d5d5d5;}
+.right-box .secure  {display: table-cell;     width: 380px;}
+.right-box .secure div {padding: 0 15px;}
+.right-box .mcafee  { display: inline-block; width: 30%}
+.right-box .norton  {margin-top: -7px; margin-right: 4px; margin-left: 4px;}
+.right-box .patent  {background: url("http://cdnrep.reimageplus.com/website/newwebsite/lp/slm/patent.png") no-repeat; display: block; width: 95px; height: 43px;}
+.right-box .print-screen-image {margin-top: 20px;}
+
+.first-link			{padding: 34px 0 31px 111px; background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/link-icon1.png') no-repeat 34px 15px;}
+.first-link a		{font-weight: bold; font-size:15px;}
+
+.print-screen 		{text-align: center; padding: 27px 0;}
+.download-desc		{padding: 27px 20px 27px 43px; font-size: 13px; line-height: 18px;}
+.download-desc div	{padding: 0 0 15px 0;}
+.rate img			{position: relative; top: 2px;}
+
+.downloadSec		{padding: 27px 0;}
+.downloadSec a,
+.downloadSec a:hover{margin: 0 auto;}
+
+.compatible			{padding: 27px 0;}
+.compatible h3		{text-align: center; font-size: 13px; padding: 0 0 20px 0; margin: 0;}
+
+.logos div			{display: block; float: left; margin: 0 0 0 24px;}
+.windows8			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/reimage-compatible-windows-8.png') no-repeat; width: 70px; height: 87px;}
+.windowsxp			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/reimage-compatible-windows-xp.png') no-repeat; width: 65px; height: 95px;}
+.windowsxp-vista	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/reimage-compatible-windows-xp-vista.png') no-repeat; width: 65px; height: 95px;}
+.windows7			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/reimage-compatible-windows-7.png') no-repeat; width: 80px; height: 93px;}
+
+
+.left-side			{margin: 0 320px 0 0;}
+.yellow-bg			{background: #ffff71; display: inline-block;}
+
+.first-section span.yellow-bg	{font-size: 18px; font-weight: bold;}
+.first-section h2	{margin: 0 0 10px 0; padding: 0;}
+
+.second-section		{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/link-icon2.png') no-repeat 10px 15px; padding: 20px 0 20px 100px; font-size: 12px;}
+.second-section a,
+.second-section a:hover	{font-size: 24px; font-weight: bold;}
+
+.gray-box			{width: 502px;}
+.gray-box .top,
+.gray-box .bottom	{height: 8px; background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/gray-box-top.png') no-repeat; display: block;}
+.gray-box .bottom	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/gray-box-bottom.png') no-repeat;}
+.gray-box .middle	{border: solid 1px #8f88e7; border-top: none; border-bottom: none; background: #e4e4e4; padding: 0 30px 10px 30px;}
+.gray-box .middle ul	{margin: 0 30px; padding: 0; list-style: decimal; font-size: 13px;}
+.gray-box .middle ul li	{height: 50px; padding: 20px 100px 0 0;}
+.gray-box .middle ul li.step1		{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/icon-step1.png') no-repeat right center;}
+.gray-box .middle ul li.step2		{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/icon-step2.png') no-repeat right center;}
+.gray-box .middle ul li.step3		{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/icon-step3.png') no-repeat right center;}
+.gray-box .middle ul li a		{font-weight: bold;}
+.gray-box .middle .bottom-links	{height: 55px; padding: 10px 0 0 0; width: 480px;}
+.gray-box .middle .mcafee		{float: right; margin-right: -10px;}
+.gray-box .middle .norton		{float: right; margin-top: -3px;}
+.gray-box .middle a.download,
+.gray-box .middle a.free-download	{float: left;}
+
+.comments-container		{padding: 0 0 20px 0;}
+.comment-icon			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/comment-icon.gif') no-repeat; width: 40px; height: 40px; display: block; float: left;}
+.comment				{border: solid 1px #e2e2e2; margin: 0 0 0 68px; padding: 10px 10px 20px 10px;}
+.comment h5				{margin: 0 0 10px 0; padding: 0 0 10px 0; border-bottom: dashed 1px #e2e2e2;}
+.comment-right 			{float: right; font-weight: normal;}
+
+.price-stating          {font-size: 11px;}
+
+.footer				{font-size: 11px; padding: 10px;}
+
+.header .trusteSeal			{display: none; float: right; padding: 32px 25px 0 0;}
+.truste	a,
+.truste	a:hover		{display: block; text-decoration: none;}
+
+/**
+ * 	Germany language
+ */
+
+.de .header h1			{padding-top: 18px; font-size: 42px;}
+.de .second-section a	{font-size: 20px;}
+.de .first-link			{padding-left: 103px;}
+.de h3					{font-size: 17px;}
+.de .gray-box .middle ul li	{padding-right: 60px;}
+.de .gray-box .middle ul li.step3 {height: 70px;}
+.de a.download,
+.de a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/de-download-button.png') no-repeat left top;}
+.de a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/de-download-button.png') no-repeat left -52px;}
+.de .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/de-ms-seal.png') no-repeat;}
+
+/**
+ * 	French language
+ */
+
+.fr .header h1			{font-size: 30px; padding: 32px 0 18px 109px;}
+.fr .first-section h2   {letter-spacing: -1px;}
+.fr a.download,
+.fr a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/fr-download-button.png') no-repeat left top;}
+.fr a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/fr-download-button.png') no-repeat left -52px;}
+.fr .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/fr-ms-seal.png') no-repeat;}
+.fr .gray-box .middle ul li.step3 {height: 70px;}
+
+/**
+ * 	Italian language
+ */
+
+.it .header h1			{font-size: 40px; padding: 28px 0 18px 109px;}
+.it a.download,
+.it a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/it-download-button.png') no-repeat left top;}
+.it a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/it-download-button.png') no-repeat left -52px;}
+.it .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/it-ms-seal.png') no-repeat;}
+.it .gray-box .middle div.extraText {padding-top: 25px;}
+
+/**
+ * 	Japanese language
+ */
+
+.ja .header h1			{padding-top: 24px; font-size: 40px;}
+
+.ja a.download,
+.ja a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/ja-download-button.png') no-repeat left top;}
+.ja a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/ja-download-button.png') no-repeat left -52px;}
+.ja .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/ja-ms-seal.png') no-repeat;}
+.ja .gray-box .middle ul li.step3 {height: 75px;}
+
+/**
+ * 	Dutch language
+ */
+
+.nl .header h1			{padding-top: 18px; font-size: 42px;}
+.nl a.download,
+.nl a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/nl-download-button.png') no-repeat left top;}
+.nl a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/nl-download-button.png') no-repeat left -52px;}
+.nl .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/nl-ms-seal.png') no-repeat;}
+.nl .gray-box .middle ul li.step3 {height: 70px;}
+
+/**
+ * 	Swedish language
+ */
+
+.sv .header h1			{padding-top: 18px; font-size: 42px;}
+.sv a.download,
+.sv a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/sv-download-button.png') no-repeat left top;}
+.sv a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/sv-download-button.png') no-repeat left -52px;}
+.sv .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/sv-ms-seal.png') no-repeat;}
+.sv ul .extraText       {padding-right: 80px !important;}
+
+/**
+ * 	Spanish language
+ */
+
+.es .header h1			{font-size: 37px; padding: 24px 0px 18px 109px;}
+.es a.download,
+.es a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/es-download-button.png') no-repeat left top;}
+.es a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/es-download-button.png') no-repeat left -52px;}
+.es .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/es-ms-seal.png') no-repeat;}
+.es .gray-box .middle ul li.step3 {height: 70px;}
+
+
+/**
+ * 	Portuguese language
+ */
+
+.pt .header h1			{font-size: 35px; padding: 26px 0px 18px 109px;}
+.pt a.download,
+.pt a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/pt-download-button.png') no-repeat left top;}
+.pt a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/pt-download-button.png') no-repeat left -52px;}
+.pt .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/pt-ms-seal.png') no-repeat;}
+.pt .gray-box .middle ul li.step3 {height: 70px;}
+
+/**
+ * 	Danish language
+ */
+
+.da .header h1			{font-size: 42px; padding: 18px 0px 18px 109px;}
+.da a.download,
+.da a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/da-download-button.png') no-repeat left top;}
+.da a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/da-download-button.png') no-repeat left -52px;}
+.da .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/da-ms-seal.png') no-repeat;}
+
+/**
+ * 	Polish language
+ */
+
+.pl .header h1			{font-size: 34px; padding: 6px 0px 18px 109px; line-height: 40px;}
+.pl .yellow-two-lines	{display: inline;}
+.pl .gray-box 			{padding-top: 20px;}
+.pl .header .mcafee		{padding-right: 4px;}
+.pl .header .mcafee2	{padding-right: 30px;}
+
+.pl a.download,
+.pl a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/pl-download-button.png') no-repeat left top;}
+.pl a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/pl-download-button.png') no-repeat left -52px;}
+.pl .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/pl-ms-seal.png') no-repeat; width: 210px;}
+
+.pl .gray-box .middle div.extraText {padding-top: 25px;}
+
+/**
+ * 	Russian language
+ */
+
+.ru .header h1			{font-size: 42px; padding: 18px 0px 18px 109px;}
+.ru .yellow-two-lines	{display: inline;}
+.ru .gray-box 			{padding-top: 20px;}
+
+.ru a.download,
+.ru a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/ru-download-button.png') no-repeat left top;}
+.ru a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/ru-download-button.png') no-repeat left -52px;}
+.ru .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/ru-ms-seal.png') no-repeat;}
+
+.ru .gray-box .middle ul li.step3 {height: 70px;}
+
+/**
+ * 	Finnish language
+ */
+
+.fi .header h1			{font-size: 32px; padding: 30px 0px 18px 109px;}
+.fi .yellow-two-lines	{display: inline;}
+.fi .gray-box 			{padding-top: 20px;}
+
+.fi a.download,
+.fi a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/fi-download-button.png') no-repeat left top;}
+.fi a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/fi-download-button.png') no-repeat left -52px;}
+.fi .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/fi-ms-seal.png') no-repeat;}
+
+.fi .gray-box .middle div.extraText {padding-top: 25px;}
+
+/**
+ * 	Norwegian language
+ */
+
+.no .header h1			{font-size: 40px; padding: 24px 0px 18px 109px;}
+
+.no a.download,
+.no a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/no-download-button.png') no-repeat left top;}
+.no a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/no-download-button.png') no-repeat left -52px;}
+.no .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/no-ms-seal.png') no-repeat;}
+
+.no .gray-box .middle div.extraText {padding-top: 25px;}
+
+/**
+ * 	Czech language
+ */
+
+.cs .yellow-two-lines	{display: inline;}
+.cs .gray-box 			{padding-top: 20px;}
+.cs .header .mcafee		{padding-right: 4px;}
+.cs .header .mcafee2	{padding-right: 30px;}
+
+.cs a.download,
+.cs a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/cs-download-button.png') no-repeat left top;}
+.cs a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/cs-download-button.png') no-repeat left -52px;}
+.cs .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/cs-ms-seal.png') no-repeat; width: 210px;}
+
+.cs .gray-box .middle div.extraText {padding-top: 25px;}
+
+/**
+ * 	Greek language
+ */
+
+.el .header h1 			{padding: 23px 0px 18px 95px; font-size: 35px;}
+.el .first-link 		{padding-left: 105px;}
+.el .second-section a, .el .second-section a:hover {font-size: 23px;}
+.el .yellow-two-lines	{font-size: 18px;}
+.el .gray-box .middle ul li.step3 {height: 70px;}
+
+.el a.download,
+.el a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/el-download-button.png') no-repeat left top;}
+.el a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/el-download-button.png') no-repeat left -52px;}
+.el .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/el-ms-seal.png') no-repeat; width: 210px;}
+
+.el .gray-box .middle div.extraText {padding-top: 25px;}
+
+/**
+ * 	Korean language
+ */
+.ko a.download,
+.ko a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/ko-download-button.png') no-repeat left top;}
+.ko a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/ko-download-button.png') no-repeat left -52px;}
+.ko .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/ko-ms-seal.png') no-repeat; width: 210px;}
+.ko ul .extraText    {padding-right: 85px !important;}
+
+/**
+ * 	Turkish language
+ */
+.tr .header h1 			{font-size: 45px; padding-top: 15px;}
+
+.tr a.download,
+.tr a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/tr-download-button.png') no-repeat left top;}
+.tr a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/tr-download-button.png') no-repeat left -52px;}
+.tr .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/tr-ms-seal.png') no-repeat; width: 210px;}
+
+.tr .gray-box .middle div.extraText {padding-top: 25px;}
+
+/**
+ * 	Hebrew language
+ */
+body.he 				{direction: rtl;}
+
+.he .header .ms   		{float: left;}
+.he .header .secure		{float: left; padding: 3px 5px 0 0;}
+/*.he .header .mcafee 	{float: left; padding: 25px 0 0 10px;}*/
+.he .header .trusteSeal	{display: block; float: left; padding: 32px 25px 0 0;}
+.he .header h1			{padding: 10px 109px 18px 0;background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/hd-icon.png') no-repeat right;}
+.he .right-box 			{float: left;}
+.he .left-side			{margin: 0 0 0 320px;}
+
+.he .first-link 		{padding: 34px 111px 31px 0; background-position: 215px 29px;}
+.he .second-section		{background-position: right; padding: 20px 80px 20px 0;}
+
+.he .gray-box .middle ul li.step1, 
+.he .gray-box .middle ul li.step2,
+.he .gray-box .middle ul li.step3	{background-position: left;}
+.he .gray-box .middle ul li 		{padding: 20px 0 0 100px;}
+
+.he .gray-box .middle a.download,
+.he .gray-box .middle a.free-download 	{float: right;}
+.he .gray-box .middle .mcafee			{float: right;}
+
+.he .comment-icon	{float: right;}
+.he .comment 		{margin: 0px 68px 0px 0px}
+.he .comment-right 	{float: left; font-weight: normal;}
+
+.he a.download,
+.he a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/he-download-button.png') no-repeat left top;}
+.he a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/he-download-button.png') no-repeat left -52px;}
+
+.he .footer 			{text-align: center;}
+
+/**
+ *  Chinese
+ */
+.zh a.download,
+.zh a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/zh-download-button.png') no-repeat left top;}
+.zh a.download:hover	{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/zh-download-button.png') no-repeat left -52px;}
+.zh .header .ms			{background: url('http://cdnrep.reimageplus.com/website/newwebsite/lp/sys/zh-ms-seal.png') no-repeat; width: 210px;}
+.zh .first-link 		{padding-bottom: 45px;}
+
+.first-link.border a {
+	margin-left: -6px;
+}
+
+body.ja .first-link a {
+	line-height: 43px;
+}

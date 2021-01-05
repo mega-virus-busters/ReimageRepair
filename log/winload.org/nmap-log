@@ -1,0 +1,23 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-05 13:33 UTC
+Nmap scan report for winload.org (69.12.70.66)
+Host is up (0.19s latency).
+rDNS record for 69.12.70.66: server.jonesserver69.info
+Not shown: 985 filtered ports
+PORT    STATE  SERVICE
+20/tcp  closed ftp-data
+21/tcp  open   ftp
+22/tcp  closed ssh
+25/tcp  open   smtp
+26/tcp  open   rsftp
+53/tcp  open   domain
+80/tcp  open   http
+110/tcp open   pop3
+143/tcp open   imap
+222/tcp open   rsh-spx
+443/tcp open   https
+465/tcp open   smtps
+587/tcp open   submission
+993/tcp open   imaps
+995/tcp open   pop3s
+
+Nmap done: 1 IP address (1 host up) scanned in 10.08 seconds

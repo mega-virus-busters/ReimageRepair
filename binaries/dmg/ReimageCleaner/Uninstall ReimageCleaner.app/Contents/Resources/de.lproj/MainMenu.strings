@@ -1,0 +1,54 @@
+/* Class = "NSButtonCell"; title = "Uninstall"; ObjectID = "1AJ-EA-dL4"; */
+"1AJ-EA-dL4.title" = "Deinstallieren";
+
+/* Class = "NSMenuItem"; title = "Uninstaller"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Deinstallierer";
+
+/* Class = "NSMenuItem"; title = "Quit Uninstaller"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Uninstaller abbrechen";
+
+/* Class = "NSMenuItem"; title = "About Uninstaller"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "Über Uninstaller";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* (No Comment) */
+"BOF-NM-1cW.title" = "Preferences…";
+
+/* (No Comment) */
+"DVo-aG-piG.title" = "Close";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "EM4-Ln-5sl"; */
+"EM4-Ln-5sl.title" = "Abbrechen";
+
+/* (No Comment) */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* (No Comment) */
+"NMo-om-nkz.title" = "Services";
+
+/* (No Comment) */
+"Olw-nP-bQN.title" = "Hide Uninstaller";
+
+/* Class = "NSWindow"; title = "Uninstaller"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Deinstallierer";
+
+/* (No Comment) */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSTextFieldCell"; title = "Are you sure you want to uninstall Reimage Cleaner from this Mac?"; ObjectID = "YrS-sn-vem"; */
+"YrS-sn-vem.title" = "Sind Sie sicher, dass Sie Reimage Cleaner von diesem Mac deinstallieren möchten?";
+
+/* (No Comment) */
+"bib-Uj-vzu.title" = "File";
+
+/* (No Comment) */
+"dMs-cI-mzQ.title" = "File";
+
+/* (No Comment) */
+"hz9-B4-Xy5.title" = "Services";
+
+/* Class = "NSMenu"; title = "Uninstaller"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Deinstallierer";
+
