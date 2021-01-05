@@ -1,0 +1,94 @@
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2021, American Registry for Internet Numbers, Ltd.
+#
+
+
+NetRange:       69.12.64.0 - 69.12.95.255
+CIDR:           69.12.64.0/19
+NetName:        QUADRANET
+NetHandle:      NET-69-12-64-0-1
+Parent:         NET69 (NET-69-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       AS8100
+Organization:   QuadraNet Enterprises LLC (QEL-5)
+RegDate:        2014-02-27
+Updated:        2018-08-30
+Ref:            https://rdap.arin.net/registry/ip/69.12.64.0
+
+
+OrgName:        QuadraNet Enterprises LLC
+OrgId:          QEL-5
+Address:        19528 Ventura Blvd #433
+City:           Tarzana
+StateProv:      CA
+PostalCode:     91356
+Country:        US
+RegDate:        2018-06-07
+Updated:        2018-10-11
+Ref:            https://rdap.arin.net/registry/entity/QEL-5
+
+ReferralServer:  rwhois://rwhois.quadranet.com:4321
+
+OrgTechHandle: QNO6-ARIN
+OrgTechName:   QuadraNet Network Operations
+OrgTechPhone:  +1-213-614-9371 
+OrgTechEmail:  support@quadranet.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/QNO6-ARIN
+
+OrgAbuseHandle: QUADR4-ARIN
+OrgAbuseName:   QuadraNet Abuse
+OrgAbusePhone:  +1-213-614-8371 
+OrgAbuseEmail:  abuse@quadranet.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/QUADR4-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2021, American Registry for Internet Numbers, Ltd.
+#
+
+
+
+Found a referral to rwhois.quadranet.com:4321.
+
+%rwhois V-1.0,V-1.5:00090h:00 manage.quadranet.com (Ubersmith RWhois Server V-4.5.4)
+autharea=69.12.64.0/20
+xautharea=69.12.64.0/20
+network:Class-Name:network
+network:Auth-Area:69.12.64.0/20
+network:ID:NET-83031.69.12.70.64/29
+network:Network-Name:Public Network IP Range
+network:IP-Network:69.12.70.64/29
+network:IP-Network-Block:69.12.70.64 - 69.12.70.71
+network:Org-Name:JoneSolutions Internet Pro
+network:Street-Address:530 West 6th St
+network:City:Los Angeles
+network:State:CA
+network:Postal-Code:90014
+network:Country-Code:US
+network:Tech-Contact:MAINT-83031.69.12.70.64/29
+network:Created:20170801015205000
+network:Updated:20170801015205000
+network:Updated-By:support@quadranet.com
+contact:POC-Name:Jones M.
+contact:POC-Email:security@jonesolutions.com
+contact:POC-Phone:323.902.5551
+contact:Tech-Name:Jones M.
+contact:Tech-Email:security@jonesolutions.com
+contact:Tech-Phone:323.902.5551
+contact:Abuse-Name:Jones M.
+contact:Abuse-Email:security@jonesolutions.com
+contact:Abuse-Phone:323.902.5551
+%ok
