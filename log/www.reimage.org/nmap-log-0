@@ -1,0 +1,9 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-06 22:32 UTC
+Nmap scan report for www.reimage.org (64.202.188.179)
+Host is up (0.13s latency).
+rDNS record for 64.202.188.179: m1pwdvweb05-06.prod.mesa1.secureserver.net
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 5.91 seconds

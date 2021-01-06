@@ -1,0 +1,22 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-06 22:32 UTC
+Nmap scan report for www.reimage-plus.com (132.148.6.70)
+Host is up (0.20s latency).
+rDNS record for 132.148.6.70: ip-132-148-6-70.ip.secureserver.net
+Not shown: 986 closed ports
+PORT     STATE    SERVICE
+25/tcp   open     smtp
+42/tcp   filtered nameserver
+80/tcp   open     http
+111/tcp  open     rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+161/tcp  filtered snmp
+443/tcp  open     https
+1028/tcp filtered unknown
+1080/tcp filtered socks
+3128/tcp filtered squid-http
+6666/tcp filtered irc
+6667/tcp filtered irc
+6668/tcp filtered irc
+
+Nmap done: 1 IP address (1 host up) scanned in 13.92 seconds

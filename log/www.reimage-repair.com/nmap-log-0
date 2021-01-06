@@ -1,0 +1,21 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-06 22:32 UTC
+Nmap scan report for www.reimage-repair.com (172.96.186.189)
+Host is up (0.14s latency).
+rDNS record for 172.96.186.189: 172.96.186.189-static.reverse.arandomserver.com
+Not shown: 950 filtered ports, 37 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+25/tcp  open  smtp
+26/tcp  open  rsftp
+53/tcp  open  domain
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+465/tcp open  smtps
+587/tcp open  submission
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap done: 1 IP address (1 host up) scanned in 21.79 seconds

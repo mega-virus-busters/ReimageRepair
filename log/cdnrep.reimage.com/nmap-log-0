@@ -1,0 +1,10 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-06 22:31 UTC
+Nmap scan report for cdnrep.reimage.com (205.185.208.80)
+Host is up (0.046s latency).
+rDNS record for 205.185.208.80: vip080.ssl.hwcdn.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.59 seconds
