@@ -9,11 +9,11 @@
 
 # MAC OS #
 
-## DMG Installer ##
+## DMG Installer (from `cdnrep.reimageplus.com`) ##
 - https://github.com/mega-virus-busters/ReimageRepair/blob/main/cdnrep.reimageplus.com/macos/ReimageCleaner.dmg
 
-## Decompressed DMG ##
+## Decompressed DMG Installer (from `cdnrep.reimageplus.com`) ##
 - https://github.com/mega-virus-busters/ReimageRepair/tree/main/cdnrep.reimageplus.com/macos/ReimageCleaner
 
-## App ##
+## App (from `cdnrep.reimage.com`) ##
 - https://github.com/mega-virus-busters/ReimageRepair/blob/main/cdnrep.reimage.com/Mac/1104/ReimageCleanerApp.pkg
