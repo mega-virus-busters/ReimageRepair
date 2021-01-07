@@ -1,4 +1,4 @@
-# ReimageRepair
+# ReimageRepair scam & virus
 
 # WINDOWS #
 ## App 1 (from `cybop.net`) ##
