@@ -1,0 +1,5 @@
+
+
+
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/nonabyte/public_html/wp-content/themes/discover/functions.php:46) in <b>/home/nonabyte/public_html/wp-includes/pluggable.php</b> on line <b>1184</b><br />

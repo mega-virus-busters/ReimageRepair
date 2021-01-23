@@ -1,0 +1,27 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-21 19:44 UTC
+Nmap scan report for wikisoft.org (104.219.168.23)
+Host is up (0.17s latency).
+rDNS record for 104.219.168.23: smtp2.everydayisagreatdayfor.us
+Not shown: 981 filtered ports
+PORT     STATE  SERVICE
+20/tcp   closed ftp-data
+21/tcp   open   ftp
+22/tcp   closed ssh
+25/tcp   open   smtp
+53/tcp   open   domain
+80/tcp   open   http
+110/tcp  open   pop3
+143/tcp  open   imap
+443/tcp  open   https
+465/tcp  open   smtps
+587/tcp  open   submission
+993/tcp  open   imaps
+995/tcp  open   pop3s
+999/tcp  closed garcon
+1000/tcp closed cadlock
+1001/tcp closed webpush
+1002/tcp closed windows-icfw
+1007/tcp closed unknown
+1009/tcp closed unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 14.60 seconds
